@@ -1,0 +1,35 @@
+2020-11-03 08:48:37.683  INFO 5444 --- [main] com.cg.LoginService                      : No active profile set, falling back to default profiles: default
+2020-11-03 08:48:43.262  WARN 5444 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-03 08:48:44.006  WARN 5444 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-03 08:48:44.006  WARN 5444 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-03 08:48:44.787  WARN 5444 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-11-03 08:48:47.638  INFO 5444 --- [main] com.cg.LoginService                      : Started LoginService in 11.32 seconds (JVM running for 12.315)
+2020-11-03 08:50:15.980  INFO 5444 --- [http-nio-9192-exec-6] c.cg.controller.LoginServiceController   : Invalid username and password
+2020-11-03 08:50:26.084  INFO 5444 --- [http-nio-9192-exec-8] c.cg.controller.LoginServiceController   : Invalid username and password
+2020-11-03 08:50:57.882  INFO 5444 --- [http-nio-9192-exec-2] c.cg.controller.LoginServiceController   : user hashirama just logged in
+2020-11-03 09:15:22.119  INFO 5444 --- [http-nio-9192-exec-2] c.cg.controller.LoginServiceController   : user hashirama just logged in
+2020-11-03 09:16:19.064  INFO 5444 --- [http-nio-9192-exec-3] c.cg.controller.LoginServiceController   : Invalid username and password
+2020-11-03 09:16:47.917  INFO 5444 --- [http-nio-9192-exec-7] c.cg.controller.LoginServiceController   : Invalid username and password
+2020-11-03 09:22:14.789  INFO 5444 --- [http-nio-9192-exec-1] c.cg.controller.LoginServiceController   : user hashirama just logged in
+2020-11-03 09:33:46.061  WARN 5444 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1604376226061, current=DOWN, previous=UP]
+2020-11-03 09:33:49.189  WARN 5444 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2020-11-03 09:34:17.061  INFO 6848 --- [main] com.cg.LoginService                      : No active profile set, falling back to default profiles: default
+2020-11-03 09:34:22.558  WARN 6848 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-03 09:34:23.399  WARN 6848 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-03 09:34:23.405  WARN 6848 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-03 09:34:24.377  WARN 6848 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-11-03 09:34:26.734  INFO 6848 --- [main] com.cg.LoginService                      : Started LoginService in 11.118 seconds (JVM running for 12.104)
+2020-11-03 09:47:00.790  WARN 6848 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1604377020790, current=DOWN, previous=UP]
+2020-11-03 11:15:01.476  INFO 7212 --- [main] com.cg.LoginService                      : No active profile set, falling back to default profiles: default
+2020-11-03 11:15:05.940  WARN 7212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-03 11:15:06.643  WARN 7212 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-03 11:15:06.658  WARN 7212 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-03 11:15:07.502  WARN 7212 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-11-03 11:15:09.774  INFO 7212 --- [main] com.cg.LoginService                      : Started LoginService in 9.638 seconds (JVM running for 10.557)
+2020-11-03 11:17:14.313  WARN 7212 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1604382434313, current=DOWN, previous=UP]
+2020-11-03 11:17:31.400  INFO 4872 --- [main] com.cg.LoginService                      : No active profile set, falling back to default profiles: default
+2020-11-03 11:17:35.921  WARN 4872 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-03 11:17:36.615  WARN 4872 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-03 11:17:36.630  WARN 4872 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-03 11:17:37.787  WARN 4872 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-11-03 11:17:39.885  INFO 4872 --- [main] com.cg.LoginService                      : Started LoginService in 9.857 seconds (JVM running for 10.833)
