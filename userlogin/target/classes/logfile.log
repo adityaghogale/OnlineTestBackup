@@ -1,0 +1,59 @@
+2020-11-02 08:22:20.621  WARN 980 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/userloginservice/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-11-02 08:22:20.638  INFO 980 --- [restartedMain] com.cg.UserloginApplication              : No active profile set, falling back to default profiles: default
+2020-11-02 08:22:21.949  WARN 980 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-02 08:22:23.143  WARN 980 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-02 08:22:23.647  WARN 980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-02 08:22:23.832  WARN 980 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-02 08:22:24.887  WARN 980 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-11-02 08:22:26.355  INFO 980 --- [restartedMain] com.cg.UserloginApplication              : Started UserloginApplication in 8.317 seconds (JVM running for 9.541)
+2020-11-02 08:23:12.699  WARN 980 --- [http-nio-1111-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [feign.RetryableException: Read timed out executing POST http://logindataprovider/register]
+2020-11-02 08:23:46.126  WARN 980 --- [http-nio-1111-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [UserNotFoundException [message=User With username rex already exist]]
+2020-11-02 08:23:56.746  WARN 980 --- [http-nio-1111-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [UserNotFoundException [message=User With username rex already exist]]
+2020-11-02 08:24:38.695  WARN 980 --- [http-nio-1111-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [UserNotFoundException [message=Invalid username or password]]
+2020-11-02 08:24:44.787  INFO 980 --- [http-nio-1111-exec-8] com.cg.controller.UserLoginController    : rex1 logged in
+2020-11-02 08:24:50.824  WARN 980 --- [http-nio-1111-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [UserNotFoundException [message=Invalid username or password]]
+2020-11-02 08:25:02.669  WARN 980 --- [http-nio-1111-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2020-11-02 08:25:06.354  WARN 980 --- [http-nio-1111-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2020-11-02 08:25:18.069  WARN 980 --- [http-nio-1111-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [UserNotFoundException [message=User details cannot be empty]]
+2020-11-02 08:25:41.322  WARN 980 --- [http-nio-1111-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2020-11-02 08:45:42.381  WARN 980 --- [http-nio-1111-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2020-11-02 09:23:50.496  WARN 980 --- [http-nio-1111-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [UserNotFoundException [message=Invalid username or password]]
+2020-11-02 09:56:55.863  WARN 980 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1604291215863, current=DOWN, previous=UP]
+2020-11-02 09:56:56.085  WARN 980 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RibbonApacheHttpClientConfiguration.connectionManagerTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Unknown Source)
+ java.util.TimerThread.run(Unknown Source)
+2020-11-02 09:56:56.088  WARN 980 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [NFLoadBalancer-PingTimer-logindataprovider] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Unknown Source)
+ java.util.TimerThread.run(Unknown Source)
+2020-11-02 09:56:56.092  WARN 980 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2020-11-02 09:56:56.095  WARN 980 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DataPublisher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2020-11-02 09:56:56.097  WARN 980 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
