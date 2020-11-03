@@ -1,0 +1,45 @@
+2020-11-02 08:21:41.132  WARN 9616 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/logindataprovider/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-11-02 08:21:41.150  INFO 9616 --- [restartedMain] com.cg.LoginServiceApplication           : No active profile set, falling back to default profiles: default
+2020-11-02 08:21:43.261  WARN 9616 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-02 08:21:43.297  WARN 9616 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-11-02 08:21:45.176  WARN 9616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-02 08:21:48.221  WARN 9616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-02 08:21:49.452  WARN 9616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-02 08:21:49.875  WARN 9616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-02 08:21:50.762  WARN 9616 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-11-02 08:21:52.713  INFO 9616 --- [restartedMain] com.cg.LoginServiceApplication           : Started LoginServiceApplication in 14.266 seconds (JVM running for 15.461)
+2020-11-02 08:23:12.647  INFO 9616 --- [hystrix-UserController-1] com.cg.controller.UserController         : Due to invalid user registration details, the fallbackmethod is called by Hystrix
+2020-11-02 08:23:46.015  INFO 9616 --- [hystrix-UserController-2] com.cg.controller.UserController         : Due to invalid user registration details, the fallbackmethod is called by Hystrix
+2020-11-02 08:23:56.738  INFO 9616 --- [hystrix-UserController-3] com.cg.controller.UserController         : Due to invalid user registration details, the fallbackmethod is called by Hystrix
+2020-11-02 08:24:38.687  INFO 9616 --- [hystrix-UserController-5] com.cg.controller.UserController         : Due to Invalid Username or Password, the fallbackmethod is called by Hystrix
+2020-11-02 08:24:50.803  INFO 9616 --- [hystrix-UserController-7] com.cg.controller.UserController         : Due to Invalid Username or Password, the fallbackmethod is called by Hystrix
+2020-11-02 08:46:18.401  WARN 9616 --- [Thread-2] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1604286978400, current=DOWN, previous=UP]
+2020-11-02 08:46:23.596  WARN 9616 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/logindataprovider/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-11-02 08:46:23.599  INFO 9616 --- [restartedMain] com.cg.LoginServiceApplication           : No active profile set, falling back to default profiles: default
+2020-11-02 08:46:25.145  WARN 9616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-02 08:46:25.924  WARN 9616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-02 08:46:26.223  WARN 9616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-02 08:46:26.473  WARN 9616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-02 08:46:26.990  WARN 9616 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-11-02 08:46:27.459  INFO 9616 --- [restartedMain] com.cg.LoginServiceApplication           : Started LoginServiceApplication in 5.275 seconds (JVM running for 1490.207)
+2020-11-02 08:46:47.372  WARN 9616 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1604287007372, current=DOWN, previous=UP]
+2020-11-02 08:46:52.463  WARN 9616 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/logindataprovider/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-11-02 08:46:52.465  INFO 9616 --- [restartedMain] com.cg.LoginServiceApplication           : No active profile set, falling back to default profiles: default
+2020-11-02 08:46:53.801  WARN 9616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-02 08:46:54.502  WARN 9616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-02 08:46:54.774  WARN 9616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-02 08:46:55.011  WARN 9616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-02 08:46:55.519  WARN 9616 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-11-02 08:46:55.925  INFO 9616 --- [restartedMain] com.cg.LoginServiceApplication           : Started LoginServiceApplication in 4.841 seconds (JVM running for 1518.673)
+2020-11-02 09:23:50.457  INFO 9616 --- [hystrix-UserController-1] com.cg.controller.UserController         : Due to Invalid Username or Password, the fallbackmethod is called by Hystrix
+2020-11-02 09:57:06.464  WARN 9616 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1604291226464, current=DOWN, previous=UP]
+2020-11-02 09:57:09.650  WARN 9616 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxComputationScheduler-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
